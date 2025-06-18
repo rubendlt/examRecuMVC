@@ -53,4 +53,13 @@ public class View {
         }
         return numero;
     }
+    // Muestra el resultado
+    public void mostrarResultado(double resultado) {
+        System.out.println("➡️  El resultado es: " + resultado);
+    }
+
+    // Muestra un mensaje de error
+    public void mostrarError(String mensaje) {
+        System.out.println("⚠️  " + mensaje);
+    }
 }
