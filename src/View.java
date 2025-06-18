@@ -60,6 +60,6 @@ public class View {
 
     // Muestra un mensaje de error
     public void mostrarError(String mensaje) {
-        System.out.println("Error" + mensaje);
+        System.out.println("Error: " + mensaje);
     }
 }
