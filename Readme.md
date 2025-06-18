@@ -10,3 +10,37 @@ Este proyecto implementa una **calculadora simple** por consola en Java, utiliza
 5. `Controller` pasa el resultado a `View`, que lo muestra al usuario.
 6. El proceso se repite hasta que el usuario elige salir.
 
+## Explicación Clases
+
+## 'View.java'
+
+Gestiona la interfaz de usuario por consola. Aquí el usuario:
+
+Ve el menú
+
+Introduce números
+
+Ve los resultados
+
+Ve errores
+
+
+### 'Model.java'
+
+Encapsula toda la lógica, sus métodos simplemente devuelven resultados de suma, resta, multiplicación y división.
+
+## 'Controller.java'
+
+Se comunica tanto con el modelo como con la vista. Tiene la lógica de flujo:
+
+Muestra el menú
+
+Recibe la opción del usuario
+
+Llama al modelo para hacer el cálculo
+
+Muestra el resultado con la vista
+
+## 'Main.java'
+
+lase de entrada. Crea las instancias de Model, View y Controller, y luego ejecuta el controlador:
