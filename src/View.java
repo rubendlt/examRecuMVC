@@ -55,11 +55,11 @@ public class View {
     }
     // Muestra el resultado
     public void mostrarResultado(double resultado) {
-        System.out.println("➡️  El resultado es: " + resultado);
+        System.out.println("El resultado es: " + resultado);
     }
 
     // Muestra un mensaje de error
     public void mostrarError(String mensaje) {
-        System.out.println("⚠️  " + mensaje);
+        System.out.println("Error" + mensaje);
     }
 }
