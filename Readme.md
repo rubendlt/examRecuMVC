@@ -1,14 +1,12 @@
-# Examen recuperación MVC
----
-Transforma esta aplicación según la arquitectura MVC vista en clase, sin cambiar la funcionalidad
+# Descripcíón del proyecto
+Este proyecto implementa una **calculadora simple** por consola en Java, utilizando el patrón de arquitectura **MVC (Modelo - Vista - Controlador)**.
 
-Valoración:
+## ¿Cómo funciona?
 
-* Clases por separado
-* Funcionalidad de la vista (20 puntos)
-* Funcionalidad del Controller (20 puntos)
-* Utilización de Clase para guardar datos (como la clase Coche utilizada en clase) (20 puntos)
-  * Coherencia con la clase Model (10 puntos)
-* Realización de commits por cada paso que se realice (10 puntos)
-* Comentarios en el código (5 puntos)
-* Readme justificando la toma de desición y describiendo los beneficios aportados por el cambio de código (15 puntos)
+1. El usuario ve el menú en la consola (generado por `View`).
+2. El usuario selecciona una operación y proporciona dos números (entrada gestionada por `View`).
+3. `Controller` toma la entrada, decide qué hacer y llama al método apropiado en `Model`.
+4. `Model` realiza el cálculo y devuelve el resultado.
+5. `Controller` pasa el resultado a `View`, que lo muestra al usuario.
+6. El proceso se repite hasta que el usuario elige salir.
+
