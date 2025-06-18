@@ -25,7 +25,7 @@ Ve los resultados
 Ve errores
 
 
-### 'Model.java'
+## 'Model.java'
 
 Encapsula toda la lógica, sus métodos simplemente devuelven resultados de suma, resta, multiplicación y división.
 
